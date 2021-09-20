@@ -22,7 +22,7 @@
             </ul>
 
             @if ( isset($_GET['q']) )
-                @include('includes.search_results')
+                @i  nclude('includes.search_results')
             @else
                 @yield('content')
             @endif
@@ -35,15 +35,16 @@
             </ul>
 
         </div>
-
-        <div class="row">
-            @include('includes.footer')
-        </div>
-
     </div>
-
-
 </div>
+
+<div class="footer">
+    <div class="container">
+        @include('includes.footer')
+    </div>
+</div>
+
+
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
