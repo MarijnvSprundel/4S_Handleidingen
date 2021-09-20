@@ -1,6 +1,20 @@
 
 <footer>
-	© {{ __('misc.copyright') }}
+	<p>© {{ __('misc.copyright') }}</p>
+  <a class="about" href="#">Over ons</a>
+  <div class="info">
+    <div class="contact">
+      <p>06118234180</p>
+      <p>ditiseenemail@gmail.com</p>
+    </div>
+    <div class="social">
+      <a href="#">Twitter</a>
+      <a href="#">Facebook</a>
+    </div>
+  </div>
+ 
+  
+  
 </footer>
 
 
